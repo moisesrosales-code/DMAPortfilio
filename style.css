@@ -294,7 +294,7 @@ h2 {
 
 .project-frame {
   background: #1c1c1c;
-  border: 2px solid #2c2c2c;
+  border: none;
   border-radius: 20px;
   padding: 22px;
   min-height: 110px;
@@ -304,6 +304,11 @@ h2 {
     box-shadow .25s ease,
     border-color .25s ease,
     background .25s ease;
+}
+
+/* ← add this right after */
+body.art74-page .project-frame {
+  border: none;
 }
 
 .project-frame:hover {
